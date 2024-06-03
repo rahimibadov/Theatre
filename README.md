@@ -2,8 +2,8 @@
 # Theatre
 
 <p>
-This my fisrt project. Theatre scene.
-Using just HTML and CSS
+This my first project of Theatre scene.
+I used  just HTML and CSS
 </p>
 
 ![](theatre.gif)
