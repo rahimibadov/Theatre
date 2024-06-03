@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:black ;
+}
+h1{
+    font-size: 45px;
+    color: red;
+}
+h2{
+    font-size: 45px;
+    color: orangered;
+    animation: text 40s;
+    visibility: hidden;
+}
+  
+  @keyframes text {
+    80% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+  }
+
+.theatre{
+    width: 80%;
+    height:800px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+
+
+}
+
+.curtain{
+    width:550px ;
+    height:290px ;
+    background-color: black;
+    background-repeat: no-repeat;
+    animation: curtain 50s linear 1 ;
+    animation-direction: normal;
+    background-size: cover;
+    animation-fill-mode: forwards;
+}
+
+@keyframes curtain{
+    5% { background-image: url("./curtain-images/1curtain.png");}
+    7% { background-image: url("./curtain-images/2curtain.png");}
+    9% { background-image: url("./curtain-images/3curtain.png");}
+    11% { background-image: url("./curtain-images/4curtain.png");}
+    12% { background-image: url("./curtain-images/5curtain.png");}
+    13% { background-image: url("./curtain-images/6curtain.png");}
+    14% { background-image: url("./curtain-images/7curtain.png");}
+    15% { background-image: url("./curtain-images/8curtain.png");}
+    16% { background-image: url("./curtain-images/9curtain.png");}
+    17% { background-image: url("./curtain-images/10curtain.png");}
+    18% { background-image: url("./curtain-images/11curtain.png");}
+    20% { background-image: url("./curtain-images/12curtain.png");}
+    22% { background-image: url("./curtain-images/13curtain.png");}
+    24% { background-image: url("./curtain-images/14curtain.png");}
+    26% { background-image: url("./curtain-images/15curtain.png");}
+    28% { background-image: url("./curtain-images/16curtain.png");}
+    30% { background-image: url("./curtain-images/17curtain.png");}
+    32% { background-image: url("./curtain-images/18curtain.png");}
+    34% { background-image: url("./curtain-images/19curtain.png");}
+    36% { background-image: url("./curtain-images/20curtain.png");}
+    38% { background-image: url("./curtain-images/21curtain.png");}
+    40% { background-image: url("./curtain-images/22curtain.png");}
+
+    61% { background-image: url("./curtain-images/15curtain.png");}
+    63% { background-image: url("./curtain-images/14curtain.png");}
+    65% { background-image: url("./curtain-images/13curtain.png");}
+    67% { background-image: url("./curtain-images/12curtain.png");}
+    69% { background-image: url("./curtain-images/11curtain.png");}
+    71% { background-image: url("./curtain-images/10curtain.png");}
+    73% { background-image: url("./curtain-images/9curtain.png");}
+    75% { background-image: url("./curtain-images/8curtain.png");}
+    77% { background-image: url("./curtain-images/7curtain.png");}
+    79% { background-image: url("./curtain-images/6curtain.png");}
+    81% { background-image: url("./curtain-images/5curtain.png");}
+    83% { background-image: url("./curtain-images/4curtain.png");}
+    85% { background-image: url("./curtain-images/3curtain.png");}
+    87% { background-image: url("./curtain-images/2curtain.png");}
+    90% { background-image: url("./curtain-images/1curtain.png");}
+    
+
+
+}
+
+.stage{
+    width: 240px;
+    height: 290px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 160px 0 0 80px;
+    animation-name: stage;
+    animation-delay: 20s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes stage{
+    7%{background-image: url("./curtain-images/1stage.jpg");}
+    15%{background-image: url("./curtain-images/2stage.jpg");}
+    23%{background-image: url("./curtain-images/3stage.jpg");}
+    31%{background-image: url("./curtain-images/4stage.jpg");}
+    40%{background-image: url("./curtain-images/5stage.jpg");}
+    48%{background-image: url("./curtain-images/6stage.jpg");}
+    57%{background-image: url("./curtain-images/7stage.jpg");}
+    65%{background-image: url("./curtain-images/8stage.jpg");}
+    73%{background-image: url("./curtain-images/9stage.jpg");}
+    82%{background-image: url("./curtain-images/10stage.jpg");}
+    90%{background-image: url("./curtain-images/11stage.jpg");}
+    100%{background-image: url("./curtain-images/12stage.jpg");}
+  
+}
+
+
+.audience{
+    width: 690px;
+    height: 130px;
+    background-image: url("./curtain-images/istockphoto-1150098746-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
